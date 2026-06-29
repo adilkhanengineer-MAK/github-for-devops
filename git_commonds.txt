@@ -24,3 +24,5 @@ doskey /history
 4)git push origin master
 
 ***yh 4 step maine github se commit kiya hai***
+
+github se commit file ko IDE per dekhne ke liye " git pull origin master " commond chalate hai
