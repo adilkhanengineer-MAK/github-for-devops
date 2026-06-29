@@ -1,0 +1,11 @@
+dir /a
+git status
+git add testing.py
+git status
+ git commit -m "added a testing file"
+git config --global user.email "adilkhanengineer@gmail.com" 
+git config --global user.name "Adil Khan Engineer"
+git config --global --list
+git commit -m "added a testing.py file"
+history
+doskey /history
