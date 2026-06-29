@@ -1,5 +1,4 @@
 dir /a
-git status
 git add testing.py
 git status
  git commit -m "added a testing file"
@@ -7,5 +6,13 @@ git config --global user.email "adilkhanengineer@gmail.com"
 git config --global user.name "Adil Khan Engineer"
 git config --global --list
 git commit -m "added a testing.py file"
-history
+cls
+git remote add origin https://github.com/adilkhanengineer-MAK/github-for-devops.git
+git remote -v
+git remote set-url origin https://ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@github.com/adilkhanengineer-MAK/github-for-devops.git
+git remote -v
+git push origin master
+git add .
+git commit -m "add second file name git_commonds.txt"
+git push origin master
 doskey /history
